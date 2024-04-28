@@ -1,8 +1,8 @@
 {
   "node": {
-    "6ee59a5e334a65962fdaf99ba6b2ff721a677305": {
+    "3ed05a18f617ba788ce17314a9d952e9544a9f87": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fstenadg%2Fsrc%2Frag_arena%2Freact%2Fapp%2FArena%2Fserver.ts%22%2C%5B%22submitMessageForm%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.3_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fstenadg%2Fsrc%2Frag_arena%2Freact%2Fapp%2FArena%2Fserver.ts%22%2C%5B%22post%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "action-browser"
@@ -10,5 +10,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "0GyqzQWnpTt9g2Or+Z08uMbpBwYAmDBarEIPxsW/mOg="
+  "encryptionKey": "TJ91MTFb9+tKGAExGKKNNRX3y7yd0NNGli7bUr0aTgY="
 }

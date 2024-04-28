@@ -1,5 +1,5 @@
 "use client";
-import { submitMessageForm } from "./server";
+import { post } from "./server";
 import { useState, useCallback } from "react";
 
 export function Arena() {
@@ -7,7 +7,7 @@ export function Arena() {
 
   const loadData = async (id: number) => {
     setLoading(true);
-    const result = await submitMessageForm(0);
+    const result = await post([{ id: 0, selected: true }]);
     setLoading(false);
   };
   return (
