@@ -1,5 +1,5 @@
 import { getAIModelAnswers } from "./db_service";
-
+export const revalidate = false
 export async function MessageList() {
   const data = await getAIModelAnswers();
 
