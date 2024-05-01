@@ -22,7 +22,6 @@ export async function submitBest(x: { selected: boolean; id: number }[]) {
     const info = stmt.run(x.id);
     console.log("update", info);
   });
-  await delay(100);
 }
 
 type QuestionIdResult = {
