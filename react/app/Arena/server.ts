@@ -6,7 +6,7 @@ function delay(ms: number) {
 }
 
 export async function post(x: { selected: boolean; id: number }[]) {
-  await delay(1000)
+  await delay(500)
   await submitBest(x);
   revalidatePath("/");
 }
