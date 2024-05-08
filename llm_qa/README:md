@@ -1,0 +1,9 @@
+model_name,question,answer,optimal_answer
+
+get 5 correct question and run it through eash model
+
+mixtral
+llama3 8b
+llama3 70b
+gpt4
+gpt3
